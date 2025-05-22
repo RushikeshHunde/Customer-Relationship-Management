@@ -1,0 +1,52 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4ad2f4;
+    }
+
+    .company-title {
+    margin-top: 80px;
+      text-align: center;
+      padding: 20px 20px 20px 20px;
+      background-color: transparent;
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
+       text-decoration: underline 2px solid white;
+    }
+
+    .content-container {
+      max-width: 1200px;
+      max-height: 1200px;
+      margin: 30px auto;
+      display: grid;
+      gap: 30px;
+      padding: 20px 20px 20px;
+      background-color: #0dacb9;
+      border-radius: 20px;
+    }
+
+    .info-card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 0px 20px 5px rgb(38 101 105 / 96%);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .info-card h2 {
+      color: #004080;
+      margin-bottom: 15px;
+      text-decoration: underline 2px solid #004080;
+    }
+
+    .info-card p {
+      line-height: 1.6;
+      color: #333;
+    }

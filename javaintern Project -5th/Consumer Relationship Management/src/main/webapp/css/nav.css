@@ -1,0 +1,40 @@
+    body{
+     margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: skyblue;
+      overflow: hidden;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 12px 20px;
+      font-size: 20px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgb(82, 245, 233);
+      color: white;
+      font-weight: bold;
+      color: black;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
